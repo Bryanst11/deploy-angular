@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class DashboardServicesService {
 
-    url = 'http://localhost:4000/api'
+    url = 'https://expresserp.herokuapp.com/api'
 
   constructor(private http:HttpClient) {
 

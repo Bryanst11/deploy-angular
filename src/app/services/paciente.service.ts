@@ -8,7 +8,7 @@ import { Paciente } from "../models/paciente";
 })
 export class PacienteService {
 
-  url = 'http://localhost:4000/api'
+  url = 'https://expresserp.herokuapp.com/api'
 
   constructor(private http:HttpClient) { }
 
